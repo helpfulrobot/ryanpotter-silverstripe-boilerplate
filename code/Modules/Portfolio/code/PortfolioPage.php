@@ -124,7 +124,6 @@ class PortfolioPage extends Page
         $fields->addFieldToTab('Root.PortfolioImages', $gridField);
 
         return $fields;
-
     }
 
     /**
@@ -140,7 +139,6 @@ class PortfolioPage extends Page
         }
         return array();
     }
-
 }
 
 /**

@@ -112,5 +112,4 @@ class SliderItem extends DataObject
         }
         parent::onBeforeWrite();
     }
-
 }

@@ -62,5 +62,4 @@ class PortfolioPageModelAdmin extends CatalogPageAdmin
 
         return $form;
     }
-
 }

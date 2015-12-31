@@ -30,5 +30,4 @@ class FlashMessageConfig extends DataExtension
         }
         return false;
     }
-
 }

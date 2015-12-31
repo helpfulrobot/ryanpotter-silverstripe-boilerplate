@@ -106,5 +106,4 @@ class SubscriptionForm extends Form
         }
         return $this->controller->redirect($this->controller->data()->Link());
     }
-
 }

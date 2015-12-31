@@ -63,9 +63,7 @@ class GalleryPage extends Page
         ));
 
         return $fields;
-
     }
-
 }
 
 /**

@@ -125,7 +125,6 @@ class BlogPage extends Page
             'Content');
 
         return $fields;
-
     }
 
     /**
@@ -141,7 +140,6 @@ class BlogPage extends Page
         }
         return array();
     }
-
 }
 
 /**
@@ -165,5 +163,4 @@ class BlogPage_Controller extends Page_Controller
             Requirements::javascriptTemplate(JS_DIR . '/comments.js', $vars);
         }
     }
-
 }

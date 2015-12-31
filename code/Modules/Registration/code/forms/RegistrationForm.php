@@ -126,7 +126,5 @@ class RegistrationForm extends Form
                 'warning');
             return $this->controller->redirect(Director::absoluteBaseURL());
         }
-
     }
-
 }

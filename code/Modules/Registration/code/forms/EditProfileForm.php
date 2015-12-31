@@ -129,7 +129,6 @@ class EditProfileForm extends Form
                 return $this->controller->redirect(Director::absoluteBaseURL());
             }
         }
-
     }
 
     /**
@@ -147,5 +146,4 @@ class EditProfileForm extends Form
     {
         return $this->request->getVar('success');
     }
-
 }

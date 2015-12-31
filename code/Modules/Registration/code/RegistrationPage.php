@@ -14,7 +14,6 @@ class RegistrationPage extends Page
      * @var string
      */
     private static $description = 'Registration content page';
-
 }
 
 /**
@@ -45,5 +44,4 @@ class RegistrationPage_Controller extends Page_Controller
             return $form;
         }
     }
-
 }

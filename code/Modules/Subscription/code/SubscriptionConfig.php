@@ -54,7 +54,5 @@ class SubscriptionConfig extends DataExtension
         $mailChimpAPI->setRightTitle('<a href="https://us9.admin.mailchimp.com/account/api-key-popup/" target="_blank"><i>How do I get my MailChimp API Key?</i></a>');
         $mailChimpSuccessMessage->setRows(2);
         $mailChimpSuccessMessage->setRightTitle('Message displayed when a user has successfully subscribed to a list.');
-
     }
-
 }

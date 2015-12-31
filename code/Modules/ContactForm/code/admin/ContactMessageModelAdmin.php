@@ -79,5 +79,4 @@ class ContactMessageModelAdmin extends ModelAdmin
             'Message' => 'Message'
         );
     }
-
 }

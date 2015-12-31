@@ -144,7 +144,6 @@ class BoilerplateSiteConfigExtension extends DataExtension
             $trackingCode->setRows(20);
             $tagManagerFieldGroup->setTitle(_t('BoilerplateSiteConfigExtension.TagManagerRightTitle', 'Tag Manager'));
         }
-
     }
 
     /**
@@ -157,5 +156,4 @@ class BoilerplateSiteConfigExtension extends DataExtension
         }
         return false;
     }
-
 }

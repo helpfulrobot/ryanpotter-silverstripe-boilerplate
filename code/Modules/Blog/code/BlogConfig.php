@@ -45,7 +45,5 @@ class BlogConfig extends DataExtension
             $disqusForumShortName->setRightTitle(_t('BlogConfig.DisqusForumShortNameRightTitle',
                 'Enables Disqus commenting on blog items. Sign up for your Disqus account at: <a href="http://disqus.com/" target="_blank">http://disqus.com/</a>'));
         }
-
     }
-
 }

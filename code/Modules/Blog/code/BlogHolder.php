@@ -104,7 +104,6 @@ class BlogHolder extends Page
 
         return $data;
     }
-
 }
 
 /**

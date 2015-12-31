@@ -14,7 +14,6 @@ class EditProfilePage extends Page
      * @var string
      */
     private static $description = 'Edit profile content page';
-
 }
 
 /**
@@ -35,10 +34,10 @@ class EditProfilePage_Controller extends Page_Controller
         if (!Member::currentUser()) {
             return Security::PermissionFailure($this->controller, null);
         } else {
-            $form = EditProfileForm::create($this, 'Form');;
+            $form = EditProfileForm::create($this, 'Form');
+            ;
             $this->extend('updateEditProfileForm', $form);
             return $form;
         }
     }
-
 }

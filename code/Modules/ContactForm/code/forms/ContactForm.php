@@ -246,5 +246,4 @@ class ContactForm extends Form
         }
         return $result;
     }
-
 }

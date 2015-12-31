@@ -137,5 +137,4 @@ class BoilerplatePageExtension extends DataExtension
         }
         return false;
     }
-
 }

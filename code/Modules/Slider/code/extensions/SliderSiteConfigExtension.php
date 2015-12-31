@@ -56,7 +56,5 @@ class SliderSiteConfigExtension extends Extension
         );
         $image->setFolderName('Uploads/slider');
         $defaultSliderHeight->setRightTitle('Height that will be set across the entire site, this can be overridden in individual pages');
-
     }
-
 }

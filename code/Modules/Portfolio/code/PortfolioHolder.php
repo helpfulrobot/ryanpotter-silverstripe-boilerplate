@@ -81,7 +81,6 @@ class PortfolioHolder extends Page
         }
         return $data;
     }
-
 }
 
 /**

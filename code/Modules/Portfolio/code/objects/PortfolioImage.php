@@ -75,7 +75,6 @@ class PortfolioImage extends DataObject
      */
     protected function getContentSummary()
     {
-
         if ($this->Content) {
             /** @var HTMLText $html */
             $html = HTMLText::create();
@@ -143,5 +142,4 @@ class PortfolioImage extends DataObject
         }
         parent::onBeforeWrite();
     }
-
 }

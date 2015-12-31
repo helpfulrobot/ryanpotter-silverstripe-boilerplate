@@ -39,5 +39,4 @@ class BoilerplateGroupExtension extends DataExtension
             Permission::grant($siteAdminGroup->ID, 'EDIT_SITECONFIG');
         }
     }
-
 }

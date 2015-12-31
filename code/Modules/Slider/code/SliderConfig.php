@@ -101,5 +101,4 @@ class SliderConfig extends DataExtension
         ($this->owner->SliderItems()->First() || SiteConfig::current_site_config()->SliderImage()->Exists() ? $out = 'has-slider' : $out = 'has-no-slider');
         return $out;
     }
-
 }

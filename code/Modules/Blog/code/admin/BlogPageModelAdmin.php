@@ -55,5 +55,4 @@ class BlogPageModelAdmin extends CatalogPageAdmin
 
         return $form;
     }
-
 }

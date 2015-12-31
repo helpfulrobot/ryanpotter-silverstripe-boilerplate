@@ -153,9 +153,7 @@ class ContactPage extends Page
             CheckboxField::create('MapMarker', _t('ContactPage.MapMarker', 'Show map marker')));
 
         return $fields;
-
     }
-
 }
 
 /**
@@ -199,7 +197,6 @@ class ContactPage_Controller extends Page_Controller
                 'mapSaturation' => $mapSaturation
             ));
         }
-
     }
 
     /**
@@ -226,5 +223,4 @@ class ContactPage_Controller extends Page_Controller
     {
         return isset($_REQUEST['success']) && $_REQUEST['success'] == "1";
     }
-
 }

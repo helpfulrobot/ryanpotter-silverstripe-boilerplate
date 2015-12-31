@@ -74,5 +74,4 @@ class BoilerplateImageExtension extends DataExtension
 
         return $owner->renderWith('Image_Srcset', (array)$data);
     }
-
 }
