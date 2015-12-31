@@ -1,32 +1,17 @@
-# This file is for unifying the coding style for different editors and IDEs
-# editorconfig.org
+# For more information about the properties used in this file,
+# please see the EditorConfig documentation:
+# http://editorconfig.org
 
 [*]
-end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[**.js]
+end_of_line = lf
+indent_size = 4
 indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{*.yml,package.json}]
 indent_size = 2
 
-[**.scss]
-indent_style = space
-indent_size = 4
-
-[**.css]
-indent_style = space
-indent_size = 4
-
-[**.php]
-indent_style = space
-indent_size = 4
-
-[**.html]
-indent_style = space
-indent_size = 4
-
-[**.ss]
-indent_style = space
-indent_size = 4
+# The indent size used in the package.json file cannot be changed:
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
